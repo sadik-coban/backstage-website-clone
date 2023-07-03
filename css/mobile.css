@@ -33,6 +33,7 @@
     position: inherit;
     height: 30px;
   }
+
 }
 
 @media only screen and (max-width: 800px) {
@@ -41,6 +42,10 @@
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
+  }
+  .buy-here {
+    max-width: 80%;
+    text-align: center;
   }
   footer {
     text-align: center;
