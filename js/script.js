@@ -72,8 +72,6 @@ function Intersect(classNumber) {
           /*Scrolling up enter*/
         } 
       }
-      // We're not intersecting, so remove the class!
-      square.classList.remove("intersect-div");
     });
   });
 
