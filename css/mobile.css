@@ -1,0 +1,53 @@
+@media only screen and (max-width: 1000px) {
+  html {
+    overflow: auto;
+    scroll-behavior: smooth;
+  }
+  footer {
+    position: inherit;
+  }
+  .links {
+    display: none;
+  }
+  .link-mail {
+    position: inherit;
+    margin-bottom: 20px;
+    margin-right: 20px;
+  }
+  .bottom-bar {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+  footer {
+    margin-bottom: 30px;
+    margin-left: 20px;
+    text-align: left;
+  }
+  .header {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 20px 15px;
+    position: inherit;
+    height: 30px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .bottom-bar {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  footer {
+    text-align: center;
+  }
+  .link-mail {
+    text-align: center;
+    margin: 0;
+    margin-bottom: 30px;
+  }
+}
